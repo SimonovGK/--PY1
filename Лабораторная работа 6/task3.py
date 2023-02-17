@@ -1,10 +1,8 @@
 OUTPUT_FILE = "output.csv"
+
 # TODO реализовать функцию to_csv_file
-
-
 def to_csv_file(filename, headers, rows, delimiter=',', new_line='\n'):
     with open(filename, 'w') as f:
-
         f.writelines(delimiter.join(headers) + new_line)
         for lines in rows:
             f.writelines(delimiter.join(lines) + new_line)
