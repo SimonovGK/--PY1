@@ -1,5 +1,5 @@
 def get_count_char(str_):
-    str_ = str_.lower() # TODO посчитать количество каждой буквы в строке в аргументе str_
+    str_ = str_.lower()
     dict_char = {}
     for char in str_:
         if char.isalpha():
